@@ -1,20 +1,14 @@
 # GovHack2018Expose
 Expose's Gov Hack 2018 project
-## Aquadex
 
-![aquadex logo](img/AquaDEXIcon.png)
+** Challenges: **
+- Local - Improving Response - Best entry that assists CFS planning for and responding to incidents
+- National - Working Together - How can open government data to improve responsers' situational understanding and ability to plan their response, and share their information between agencies? How can sharing information between agencies be improved by different information presentation, allowing more informed decisions during domestic emergencies or national security events?
 
-**Aquadex allows you to help us help the Sea.**
+#### Data Collection and Identification:
+What data could we find that was open for use within the GovHack 2018 competition. As a team we worked together to identify all the open licensed data sets, and Data Services we could freely use and repurpose to meet the above challenges. Immediately we interepreted the challenges as needing mapping data sets; location based, as well as other real time data feeds. There's the data needed for preparation for those ready to confront whatever incident or emergency is occuring, there's the data needed to collect information about the incident, as well as peripheral data such as weather, rainfall\wind direction that is currently occuring. There's also the data to assist the services to reach the incident efficiently and safely, as well as those near the incidents to move away from danger as quickly and safely as possible. Once the relevant services are within proximiatey of the incident or emergency, they need continuous feeds of data to locate those injured or in danger, knowing where the exact front of the fire or emergency is, what risks are a factor, but also relying on constant communication to other emergency services, planes, applicances, volunteers and control centres. Basically, we wanted to find any data sets that may have been useful for any of these purposes.    
 
-It is a fun way to collect information, images, video and sound on the aquatic life around you.
-
-#### Background:
-Collecting marine and aquatic data is an important part of preserving our marine resources. At the same time it is very important to make the collected data available to interested community members, tourists and related researchers.  
-
-#### The Problem
-Collecting and sharing marine resource data can be a very lengthy and expensive process considering the enormity of our marine area and aquatic resources. At the same time we have heaps amount of open marine & aquatic data that people are interested in. Collaboration between these two streams of requirement can be through an effective and interactive process and providing a platform where people from each sector can interact with each other. Our goal is to make the process easier with the participation and collaboration of community members and researchers & data analysts.     
-
-#### The Solution
+#### Using the data and merging together
 Aquadex provides a mediator solution to exhibit aquatic data through an app in a consolidated way. So the user can just open the app and then select a location of his/her particular interest or next venture. It then invites user to accept challenges of aquatic data collection. At the same time Aquadex provides an interactive and pleasant way of collecting data and logging data using through gaming and “Augmented Reality”. Fun & adventure are two basic human interests and the app uses these to encourage people to actively participate in data collection and ultimately contributing to preserve marine & aquatic resources for our future generations.       
 
 #### How It Works:
