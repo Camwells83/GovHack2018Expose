@@ -114,3 +114,12 @@ A Last Resort Refuge is a space or building which you could go to and remain in 
 It is an area that provides a minimum level of protection from the immediate life threatening effects of radiant heat and direct flame contact in a bushfire. A Last Resort Refuge is intended to provide a place of relative safety during a bushfire. It does not guarantee the survival of those who assemble there. You should only use a Last Resort Refuge when your personal Bushfire Survival Plans cannot be implemented or have failed.
 If danger is greatly imminent and safe zone can't be reached then a last resort location is the next best thing. Help people locate the closest last resort zone. 
  
+* Australian Border Force RSS - ABF Newsroom - South Australia
+https://newsroom.abf.gov.au/
+RSS Feed about border protection. 
+Subscribe to the RSS feed from Australian Border force to be alerted to significant emergency events
+
+* South Australian Schools, Preschools and Child Care sites with Longitude and Latitude - Department for Education - South Australia
+https://data.sa.gov.au/data/dataset/0e66c8ec-813e-41ad-9d3b-228880b2224b/resource/b0de764a-1ea7-4313-a114-c5cd26ba776f/download/data_sa_schoolspreschoolschildcarewithlatlong_august_2018.xlsx
+List of schools, preschools and child care sites
+Identify where schools are as these can be used as a safe zones from fires 
