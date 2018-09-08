@@ -55,4 +55,17 @@ http://www.epa.sa.gov.au/air_quality/pi.txt RSS feed. TThe EPA’s recent air qu
 Used to locate airport infrastructure which is used to indicate where water bombers may land to refill or evacute in an emergency.
 Used for in national disaster or tracking potential threats to nation. RSS feed updated hourly can track if any toxic chemicals detected in different areas. Have thresh holds for safe ranges but in the event of Chemical bomb, Nuclear particles etc can detect if there is any change in air monitoring and pin point where issues or unsafe areas are.
 
+* Real Time Traffic Delays - Department of Planning, Transport and Infrastructure - South Australia
+http://maps.sa.gov.au/AddInsight/geoservice/links This web service provides details of traffic delays that are currently active in the metropolitan Adelaide area updated every 30 seconds
+In an emergency congestion can be critical to avoid for an immediate emergency response vehicle attending an emergency
+
+* Road Bridges and Fords - Geoscience Australia
+http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer Esri ArcGIS MapSever URL. Road Bridge Point - A structure erected over a depression or obstacle to carry road traffic. Ford Point - A shallow or flat portion of the bed of a watercourse or lake where a crossing may be affected.
+Locations to protect, but also use when necessary to transport cars\trucks to or from danger
+
+* Roads - Department of Planning, Transport and Infrastructure - South Australia
+http://www.dptiapps.com.au/dataportal/Roads_shp.zip Roads - A structure erected over a depression or obstacle to carry road traffic. Ford Point - A shallow or flat portion of the bed of a watercourse or lake where a crossing may be affected.
+Locate all public sealed\unsealed roads as well as private roads
+
+
 
