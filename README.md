@@ -16,11 +16,11 @@ There is plethora of data that 'could' be collected to further enhance the chall
 
 Team memebers: Etienne Oosthuyesen, Jean-Noel Seneque, Jake Deed, Andrew Exley and Cameron Wells
 
-Source Code url: 
+Source Code url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
 
 Video url: 
 
-Homepage url: https://2016.hackerspace.govhack.org/node/1766
+Homepage url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
 
 ### Local Event Location:
 
