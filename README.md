@@ -87,3 +87,23 @@ Boundries of SA1 areas could be used in combination with incidents and statistic
 http://services.ga.gov.au/gis/rest/services/NM_Culture_and_Infrastructure/MapServer This service has been created specifically for display in the National Map and the chosen symbology may not suit other mapping applications. The Australian Topographic web map service is seamless national dataset coverage for the whole of Australia. These data are best suited to graphical applications. These data may vary greatly in quality depending on the method of capture and digitising specifications in place at the time of capture. The web map service portrays detailed graphic representation of features that appear on the Earth's surface. These features include culture, habitation, industry and utility themes from the Geoscience Australia
 Either prevent danger from reaching these key locations, or use them for leverage to assist with an emergency response
 
+* Near Real-Time Surface Reflectance (Sentinel 2A) - Geoscience Australia
+https://nrt-au.dea.ga.gov.au/  TThis is a 30-day rolling archive of daily Sentinel-2 Near Real Time data. Data is only visible at higher resolutions: when zoomed-out the available areas for that day will be displayed as shaded regions. The Near Real-Time capability provides analysis-ready data that is processed on receipt using the best-available ancillary information at the time to provide atmospheric corrections
+Identify dangers or risks before they may be known by anyone
+
+* CFS Stations - Geo locations of CFS Stations
+https://www.fire-brigade.asn.au/downloads/cfs-stations.kmz
+Use as a feature to measure distance between incidents and the station where the appliance is stored, and determine best path to the incident. 
+
+* Geocoded National Address Flat File (G-NAF) - GovHackDIIS
+https://data.gov.au/dataset/d4631917-14d7-4c49-830c-555ad63adf9d/resource/bb0be4d3-d77d-49ca-a27a-aa278ed0fc5e/download/gnaf_flat_201805.psv
+The Geocoded National Address File (G-NAF) dataset has been made available for GovHack 2018 as a single file for easier use. It consists of addresses in current use from PSMA’s May 2018 release and covers all of Australia with over 14 million addresses in total. The data is made available in a pipe separated (PSV) format consisting of all the main elements of an address, including the latitude and longitude for identifying the location of each address. More information about each of the fields is available from the G-NAF May 2018 product description. 
+Every address with name of location if a point of interest - Use to locate: Fuel stations Accommodation Catering - food and drink suppliers Location of other emergency services and police Medical facilities Aged care Schools
+
+* Bushfire Safer Places - SA Country Fire Service - South Australia
+https://data.sa.gov.au/data/dataset/00ccaac9-d75a-45ad-a6b2-8a9d70d46aa3/resource/c54616b7-3103-4da6-8a54-e8c00672d95c/download/bushfire_safer_places.kmz 
+A Bushfire Safer Place is a place of relative safety and may be used as a place for people to stay in or as a place of first resort for those people who have decided that they will leave high risk locations early on a bad fire weather day.
+Properties on the outskirts of such locations generally face a higher level of risk when compared with those nearer the center of the designated area. The relative safety of these properties can be improved by property owners undertaking appropriate bushfire safety works to ensure they don't place themselves and the greater community at risk. 
+Locate nearest location to physical premises or personal location at any point in time. 
+ 
+
