@@ -106,4 +106,11 @@ A Bushfire Safer Place is a place of relative safety and may be used as a place 
 Properties on the outskirts of such locations generally face a higher level of risk when compared with those nearer the center of the designated area. The relative safety of these properties can be improved by property owners undertaking appropriate bushfire safety works to ensure they don't place themselves and the greater community at risk. 
 Locate nearest location to physical premises or personal location at any point in time. 
  
-
+* Last Resort CFS - SA Country Fire Service - South Australia
+https://data.sa.gov.au/data/dataset/4caf5333-138e-4048-b71f-15c59163355a/resource/748b2c7b-12a3-4c99-a05f-1f9fcb589f2c/download/last_resort_refuge.kmz 
+It is important not to confuse Last Resort Refuges with a Bushfire Safer Place.
+Last Resort Refuges are your LAST choice of location to shelter from a bushfire.
+A Last Resort Refuge is a space or building which you could go to and remain in during a bushfire in your area.
+It is an area that provides a minimum level of protection from the immediate life threatening effects of radiant heat and direct flame contact in a bushfire. A Last Resort Refuge is intended to provide a place of relative safety during a bushfire. It does not guarantee the survival of those who assemble there. You should only use a Last Resort Refuge when your personal Bushfire Survival Plans cannot be implemented or have failed.
+If danger is greatly imminent and safe zone can't be reached then a last resort location is the next best thing. Help people locate the closest last resort zone. 
+ 
