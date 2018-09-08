@@ -76,6 +76,14 @@ http://services.ga.gov.au/gis/rest/services/NM_Reserves/MapServer - Water Supply
 Water Supply Areas to protect from contamination or use to retard fire.
 
 * Homesteads - Geoscience Australia
-services.ga.gov.au/gis/rest/services/NM_Labelling_and_Boundaries/MapServer - Residential Building - A permanent walled and roofed construction or the ruin of such a construction. Residential Buildings are used principally as dwellings
+services.ga.gov.au/gis/rest/services/NM_Labelling_and_Boundaries/MapServer - Residential Buildings - A permanent walled and roofed construction or the ruin of such a construction. Residential Buildings are used principally as dwellings
 Use to identify where homesteads are so to identify how to remove people from homesteads, away from danger and the danger's potential paths, but also where peoples homes are so to protect
+
+* Statistical Area Level 1 (SA1) - ABS 
+http://www.abs.gov.au/ausstats/subscriber.nsf/log?openagent&1270055001_sa1_2011_aust_shape.zip&1270.0.55.001&Data%20Cubes&24A18E7B88E716BDCA257801000D0AF1&0&July%202011&23.12.2010&Latest
+Boundries of SA1 areas could be used in combination with incidents and statistical population to estimate people affected or likely to be affected by incident. People likely to need to be evacuated etc.
+
+* Storage Tanks - ABS
+http://services.ga.gov.au/gis/rest/services/NM_Culture_and_Infrastructure/MapServer This service has been created specifically for display in the National Map and the chosen symbology may not suit other mapping applications. The Australian Topographic web map service is seamless national dataset coverage for the whole of Australia. These data are best suited to graphical applications. These data may vary greatly in quality depending on the method of capture and digitising specifications in place at the time of capture. The web map service portrays detailed graphic representation of features that appear on the Earth's surface. These features include culture, habitation, industry and utility themes from the Geoscience Australia
+Either prevent danger from reaching these key locations, or use them for leverage to assist with an emergency response
 
