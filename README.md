@@ -28,11 +28,13 @@ Adelaide
 
 ### Datasets Used:
 
-* Aquatic Ecosystem Condition Reports - Environment Protection Authority (EPA) - South Australia
-https://data.sa.gov.au/data/dataset/aquatic-ecosystem-condition-reports The aquatic ecosystems condition data provides details on water quality, aquatic habitats and protected sites which provides the locations of specific species for our platform. The data also provides information on water quality on the sites featured on our app.
+* Dams (Angus Catchment) - Department for Environment and Water - South Australia
+https://data.sa.gov.au/data/dataset/dams-angus-catchment The Angas Catchment Dams dataset is a subset of the Hydro Water Bodies dataset and is limited geographically to the Angas River surface water catchment in South Australia. The data set contains polygon data outlining the physical extent of dams and estimated dam capacity (volume range in megalitres) and wall height information (in metres). Dam capacities have been estimated using various methods. These capacities have been converted to volume ranges. The majority of wall heights have been measured on site using a hand sight level. Dam capacity and wall height is based on available information and although best effort and care has been taken in compiling this information, accuracy cannot be guaranteed. The dataset will change over time as further information becomes available. 
+The data is used to identify where water resources are located and quantity of water (estimated).
 
-* Shorebased Recreational Fishing - Dept of Environment, Water and Natural Resources
-https://data.sa.gov.au/data/dataset/shore-based-recreational-fishing The recreational fishing related locations will be used to guide users of Aquadex app. The spatial data will be used for map display as well as augmented reality interfaces.
+* PSMA Geocoded National Address File (G-NAF) - Department of Industry, Innovation and Science
+https://data.gov.au/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/gmd G-NAF is one of the most ubiquitous and powerful spatial datasets. It contains more than 13 million Australian physical address records. The records include geocodes. These are latitude and longitude map coordinates. G-NAF does not contain any names or personal information.
+Data is used for multipile locations of interest, from petrol stations, police stations through to schools and hospitals.  
 
 * Jetties - DPTI
 https://data.sa.gov.au/data/dataset/jetties/resource/b617df1e-345b-47e4-a61e-445487a2be9f The spatial data is used to visualize locations of related activities in our app using interactive maps and augmented reality interface.
