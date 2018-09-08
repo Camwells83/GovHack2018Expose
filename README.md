@@ -71,3 +71,11 @@ Locate all public sealed\unsealed roads as well as private roads
 https://data.gov.au/dataset/7be6e3ee-043a-4c47-a6eb-a97702419ccd/resource/c6b211ad-3aa2-4f53-8427-01b52a6433a7/download/mbsp-database-of-reported-locations-2016-electorates.csv - The Department of Communications and the Arts has received nominations of regional locations with poor or no mobile coverage from members of the public. The database was used by applicants to design their proposals for funding under round 1 of the Mobile Black Spot Programme and is again being used for round 2 of the programme.
 Cruicial information when communications is necessary. Can be used to bring in additional temporary infrastructure to handle communications for communities during an emergency if included as a data set.  
 
+* Water Supply Reserves - Geoscience Australia
+http://services.ga.gov.au/gis/rest/services/NM_Reserves/MapServer - Water Supply Reserve - Land reserved to protect water supply catchments.
+Water Supply Areas to protect from contamination or use to retard fire.
+
+* Homesteads - Geoscience Australia
+services.ga.gov.au/gis/rest/services/NM_Labelling_and_Boundaries/MapServer - Residential Building - A permanent walled and roofed construction or the ruin of such a construction. Residential Buildings are used principally as dwellings
+Use to identify where homesteads are so to identify how to remove people from homesteads, away from danger and the danger's potential paths, but also where peoples homes are so to protect
+
