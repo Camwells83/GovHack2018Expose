@@ -38,26 +38,21 @@ The data is used to identify where water resources are located and quantity of w
 https://data.gov.au/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/gmd G-NAF is one of the most ubiquitous and powerful spatial datasets. It contains more than 13 million Australian physical address records. The records include geocodes. These are latitude and longitude map coordinates. G-NAF does not contain any names or personal information.
 Data is used for multipile locations of interest, from petrol stations, police stations through to schools and hospitals.  
 
-* Jetties - DPTI
-https://data.sa.gov.au/data/dataset/jetties/resource/b617df1e-345b-47e4-a61e-445487a2be9f The spatial data is used to visualize locations of related activities in our app using interactive maps and augmented reality interface.
+* Contours - Geoscience Australia
+http://services.ga.gov.au/gis/rest/services/NM_Relief_and_Physiography/MapServer Esri ArcGIS MapSever URL. The web map service portrays detailed graphic representation of features that appear on the Earth's surface. These features include the relief and physiography themes from the Geoscience Australia 250K Topographic Data.
+Data is used to associate gradiant with landscape. This is important in predicting where water will flow next, where fire may increae in intsity, but also for people or vehicles to cross terrain. 
 
-* South Australian Boat Ramp Locator - DPTI http://data.gov.au/dataset/05546e03-2997-4762-a439-0f2e9a492650 The spatial data is used to visualize locations of related activities in our app using interactive maps and augmented reality interface.
+* Last Bushfire and Prescribed Burn Boundaries - Department for Environment and Water  - South Australia
+http://www.waterconnect.sa.gov.au/Content/Downloads/DEWNR/FIREMGT_LastFire_shp.zip The dataset provides most recent fire scar mapping for many major fires that have burnt in a given area within or adjacent to National Parks and Wildlife South Australia (NPWSA) reserves. This data set is derived from Fire History mapping. The most recent fire mapping can be used for operational management and planning of fire events and ecological resource management.
+Used to indicate risk of fire fuelling up due to no recent fires through the location. Can help predict intensity of fire which can indicate if an evacuation route is safe or not. 
 
-* Whale Sightings Log - SA Whale Centre
-http://www.sawhalecentre.com/whale-sightings/sightings-log/?mc_cid=00ccaf0043&mc_eid=3b8b4f019a Current and past whale sightings logs will be used used to extract location data and descriptions to be displayed through aquadex app.
+* Airport Point Features - Geoscience Australia
+http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer Esri ArcGIS MapSever URL. This Airports (Point features) layer complements the Airport Runway Centrelines and Landing Grounds (Line features) Layer in this web mapping service. 250K Specification Description - Airport Area - The defined area of a facility licensed, certified or registered by the Civil Aviation Safety Authority intended to be used either wholly or in part for the arrival, departure and surface movement of aircraft and associated cargo. Runway Centreline - A line used to indicate the length and orientation of an airport's runway.
+Used to locate airport infrastructure which is used to indicate where water bombers may land to refill or evacute in an emergency.
 
-* South Australian Shipwrecks Database https://data.sa.gov.au/data/dataset/shipwrecks The spatial data is used to visualize locations of past shipwrecks using interactive maps and augmented reality interface.
+* Recent Air Quality - Environment Protection Authority (EPA) - South Australia
+http://www.epa.sa.gov.au/air_quality/pi.txt RSS feed. TThe EPA’s recent air quality data is a RSS feed that includes hourly average pollutant concentrations for ozone (ppm), carbon monoxide (ppm), nitrogen dioxide (ppm), sulfur dioxide (ppm), particles (PM10) (μg/m3), fine particles (PM2.5) (μg/m3) and station index (station air quality index or AQI) for 13 EPA monitoring sites.
+Used to locate airport infrastructure which is used to indicate where water bombers may land to refill or evacute in an emergency.
+Used for in national disaster or tracking potential threats to nation. RSS feed updated hourly can track if any toxic chemicals detected in different areas. Have thresh holds for safe ranges but in the event of Chemical bomb, Nuclear particles etc can detect if there is any change in air monitoring and pin point where issues or unsafe areas are.
 
-### APIs Used
 
-* Awe.js: Used to simplify using HTML5 geolocation, orientation and WebGL
-
-* Three.js: Used as a cool WebGL library
-
-* Google Maps JS API: Used to superimpose a layer of Roads and Streets with names on top of the camera feed.
-
-* Google Maps Directions API: Used for routing and navigation from user's current location to destination (location of restaurant, club, etc.)
-
-* Backendless: On-demand Mobile Backend as a Service (mBaaS) platform.
-
-* Monocular API (not used in the PoC): Can be used to identify species. 
