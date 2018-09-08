@@ -67,5 +67,7 @@ Locations to protect, but also use when necessary to transport cars\trucks to or
 http://www.dptiapps.com.au/dataportal/Roads_shp.zip Roads - A structure erected over a depression or obstacle to carry road traffic. Ford Point - A shallow or flat portion of the bed of a watercourse or lake where a crossing may be affected.
 Locate all public sealed\unsealed roads as well as private roads
 
-
+* Mobile Black Spot Database - Department of Communications and the Arts
+https://data.gov.au/dataset/7be6e3ee-043a-4c47-a6eb-a97702419ccd/resource/c6b211ad-3aa2-4f53-8427-01b52a6433a7/download/mbsp-database-of-reported-locations-2016-electorates.csv - The Department of Communications and the Arts has received nominations of regional locations with poor or no mobile coverage from members of the public. The database was used by applicants to design their proposals for funding under round 1 of the Mobile Black Spot Programme and is again being used for round 2 of the programme.
+Cruicial information when communications is necessary. Can be used to bring in additional temporary infrastructure to handle communications for communities during an emergency if included as a data set.  
 
