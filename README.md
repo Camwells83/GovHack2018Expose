@@ -3,6 +3,17 @@
 # GovHack2018Expose
 Expose's Gov Hack 2018 project
 
+Team memebers: Etienne Oosthuyesen, Jean-Noel Seneque, Jake Deed, Andrew Exley and Cameron Wells
+
+Source Code url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
+
+Video url: 
+
+Homepage url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
+
+### Local Event Location:
+
+Adelaide
 ** Challenges: **
 - Local - Improving Response - Best entry that assists CFS planning for and responding to incidents
 - Local - Emergency Planning and Response - How can we better plan and respond to emergencies?
@@ -17,19 +28,9 @@ As a team we worked together to identify all the open licensed data sets, and Da
 With complex and different types of data sets, a necessary step is to land this data onto a shared platform, either using a traditional relation database platform, or more modern data stores like cosmos db which can handle semi structured data, to even something less complicated such as BLOB storage. Regardless of the platform, data can then be fed into a number of services using a real time messaging, or streaming service to push data out using a broker which can then be subscribed to by which ever agencies need it. The same source of data can be used by a number of agencies at the exact same time, seeing the same data, but potentially in a different format or application. i.e. A member of a CFS applicance may only want to know details of members of the same applicance, where as their regional chief, needs to know data about several appliances, and a control centre may need to know everything but in summary. All same data, all being pushed out at once, and can be used in different ways by different subscribers. Can also be used by Apps or reporting tools, but being stored in a database gains access to more complex processes like machine learning over historical data. The app can also play the role of data contributor too, allowing users to enhance the data further by inputting more accurate and real time substance such as if a fire or threat has moved, so that everyone can immediately subscribe and be shared the latest information.  
 
 #### Going further than that!
-There is plethora of data that 'could' be collected to further enhance the challenge to plan and repsond to emeregencies even better. Having each vehicle, applicance, plane or helicopter to name a few, tracked by a device to publish to all involved where a vehicle is located at at any point in time, their fuel load and/or their water load (if water bomber or fire appliance). This could extend to individuals on the ground tracking where each servicemen is located, for a variety of benefits from a rescueing point of view, but proximatey to the closest threat or person in need of resuce. More compicated devices could be used to locate people in distress either using meshing technology to locate a phone signal, or provide them with beacons so they can be located, with the beacons also sending data to the platform which can be used throughout the solution. Therefore, each entity within the 'environment of concern' can be located and tracked, therefore more complex alogirthms can be used in combination of this data to find the best possible method of extracting those from danger, whilst focusing on retarding the threat. If a threat is a person or people, this too can be identified using facial recognition, and tracked and pin pointed using a variety of Artificial Intelligence API's. 
+There is plethora of data that 'could' be collected to further enhance the challenge to plan and respond to emergencies even better. Having each vehicle, appliance, plane or helicopter to name a few, tracked by a device to publish to all involved where a vehicle is located at at any point in time, their fuel load and/or their water load (if water bomber or fire appliance). This could extend to individuals on the ground tracking where each servicemen is located, for a variety of benefits from a rescuing point of view, but proximity to the closest threat or person in need of rescue. More complicated devices could be used to locate people in distress either using meshing technology to locate a phone signal, or provide them with beacons so they can be located, with the beacons also sending data to the platform which can be used throughout the solution. Therefore, each entity within the 'environment of concern' can be located and tracked, therefore more complex algorithms can be used in combination of this data to find the best possible method of extracting those from danger, whilst focusing on retarding the threat. If a threat is a person or people, this too can be identified using facial recognition, and tracked and pin pointed using a variety of Artificial Intelligence API's. 
 
-Team memebers: Etienne Oosthuyesen, Jean-Noel Seneque, Jake Deed, Andrew Exley and Cameron Wells
 
-Source Code url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
-
-Video url: 
-
-Homepage url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
-
-### Local Event Location:
-
-Adelaide
 
 ### Datasets Used:
 
