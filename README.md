@@ -1,7 +1,6 @@
 ![Expose:Show us your data logo](expose_Logo_Colour_transparent.png)
 
 # GovHack2018Expose
-Expose's Gov Hack 2018 project
 
 Team memebers: Etienne Oosthuyesen, Jean-Noel Seneque, Jake Deed, Andrew Exley and Cameron Wells
 
