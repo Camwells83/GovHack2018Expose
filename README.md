@@ -6,7 +6,7 @@ Team memebers: Etienne Oosthuyesen, Jean-Noel Seneque, Jake Deed, Andrew Exley a
 
 Source Code url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
 
-Video url: 
+Video url: https://www.youtube.com/watch?v=AJ9HMdsiZI4
 
 Homepage url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
 
