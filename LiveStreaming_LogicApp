@@ -1,0 +1,109 @@
+{
+    "$connections": {
+        "value": {
+            "cognitiveservicestextanalytics": {
+                "connectionId": "/subscriptions/fe93d91d-acd3-4b57-9eab-5fa613fc372d/resourceGroups/RG_GovHack/providers/Microsoft.Web/connections/cognitiveservicestextanalytics",
+                "connectionName": "cognitiveservicestextanalytics",
+                "id": "/subscriptions/fe93d91d-acd3-4b57-9eab-5fa613fc372d/providers/Microsoft.Web/locations/australiasoutheast/managedApis/cognitiveservicestextanalytics"
+            },
+            "powerbi": {
+                "connectionId": "/subscriptions/fe93d91d-acd3-4b57-9eab-5fa613fc372d/resourceGroups/RG_GovHack/providers/Microsoft.Web/connections/powerbi",
+                "connectionName": "powerbi",
+                "id": "/subscriptions/fe93d91d-acd3-4b57-9eab-5fa613fc372d/providers/Microsoft.Web/locations/australiasoutheast/managedApis/powerbi"
+            },
+            "twitter": {
+                "connectionId": "/subscriptions/fe93d91d-acd3-4b57-9eab-5fa613fc372d/resourceGroups/RG_GovHack/providers/Microsoft.Web/connections/twitter",
+                "connectionName": "twitter",
+                "id": "/subscriptions/fe93d91d-acd3-4b57-9eab-5fa613fc372d/providers/Microsoft.Web/locations/australiasoutheast/managedApis/twitter"
+            }
+        }
+    },
+    "definition": {
+        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+        "actions": {
+            "Add_rows_to_a_dataset": {
+                "inputs": {
+                    "body": {
+                        "CreatedAt": "@body('Convert_time_zone')",
+                        "Sentiment": "@{body('Detect_Sentiment')?['score']}",
+                        "TweetText": "@triggerBody()?['TweetText']"
+                    },
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['powerbi']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/v1.0/myorg/groups/@{encodeURIComponent('41be31c5-12b3-46c9-918a-d24cd165df5e')}/datasets/@{encodeURIComponent('cc1c12d8-b2af-43f2-880d-079d74f43d7a')}/tables/@{encodeURIComponent('RealTimeData')}/rows"
+                },
+                "runAfter": {
+                    "Convert_time_zone": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "Convert_time_zone": {
+                "inputs": {
+                    "baseTime": "@triggerBody()?['CreatedAtIso']",
+                    "destinationTimeZone": "Cen. Australia Standard Time",
+                    "formatString": "G",
+                    "sourceTimeZone": "GMT Standard Time"
+                },
+                "kind": "ConvertTimeZone",
+                "runAfter": {
+                    "Detect_Sentiment": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Expression"
+            },
+            "Detect_Sentiment": {
+                "inputs": {
+                    "body": {
+                        "text": "@triggerBody()?['TweetText']"
+                    },
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['cognitiveservicestextanalytics']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/sentiment"
+                },
+                "runAfter": {},
+                "type": "ApiConnection"
+            }
+        },
+        "contentVersion": "1.0.0.0",
+        "outputs": {},
+        "parameters": {
+            "$connections": {
+                "defaultValue": {},
+                "type": "Object"
+            }
+        },
+        "triggers": {
+            "When_a_new_tweet_is_posted": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['twitter']['connectionId']"
+                        }
+                    },
+                    "method": "get",
+                    "path": "/onnewtweet",
+                    "queries": {
+                        "searchQuery": "CFSAlerts"
+                    }
+                },
+                "recurrence": {
+                    "frequency": "Second",
+                    "interval": 30
+                },
+                "splitOn": "@triggerBody()?['value']",
+                "type": "ApiConnection"
+            }
+        }
+    }
+}
